@@ -1,0 +1,118 @@
+@keyframes bannerfloat1 {
+  0% {
+    margin-top: 0px;
+    margin-left: 0;
+    scale: 1;
+    rotate: 0deg;
+  }
+  25% {
+    margin-top: 6px;
+    scale: 0.98;
+  }
+  50% {
+    margin-top: 2px;
+    margin-left: 8px;
+    scale: 1;
+    rotate: 5deg;
+  }
+  75% {
+    margin-top: 6px;
+    scale: 0.98;
+  }
+  100% {
+    margin-top: 0px;
+    margin-left: 0;
+    scale: 1;
+    rotate: 0deg;
+  }
+}
+@keyframes bannerfloat2 {
+  0% {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  50% {
+    margin-top: 5px;
+    margin-left: -8px;
+  }
+  100% {
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
+@keyframes bannerfloat3 {
+  0% {
+    margin-bottom: 0;
+    rotate: 0deg;
+    scale: 1;
+  }
+  20% {
+    rotate: 5deg;
+    scale: 0.98;
+  }
+  40% {
+    margin-bottom: 10px;
+    margin-right: 5px;
+    scale: 1;
+  }
+  60% {
+    rotate: 5deg;
+    scale: 0.96;
+  }
+  80% {
+    rotate: -5deg;
+    scale: 0.98;
+  }
+  100% {
+    margin-bottom: 0;
+    rotate: 0deg;
+    scale: 1;
+  }
+}
+@keyframes bannerfloat4 {
+  0% {
+    margin-bottom: 0.5rem;
+    margin-right: 4px;
+  }
+  50% {
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+  100% {
+    margin-bottom: 0.5rem;
+    margin-right: 4px;
+  }
+}
+
+@keyframes fullfloat {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: -0.5rem;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+@keyframes topbtnfloat {
+  0% {
+    transform: translateY(4px);
+  }
+  5% {
+    transform: translateY(0);
+  }
+  10% {
+    transform: translateY(4px);
+  }
+  15% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(4px);
+  }
+  100% {
+    transform: translateY(4px);
+  }
+}
